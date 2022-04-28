@@ -2,6 +2,7 @@
   --title-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #cad8da;
+  --secondary-color: #383c3d;
 }
 h1,
 h2 {
@@ -26,6 +27,14 @@ h3 {
 }
 p {
   font-family: var(--secondary-font);
+}
+.link-button {
+  color: var(--secondary-color);
+  text-decoration: none;
+  background: var(--primary-color);
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px;
 }
 footer {
   text-align: center;
