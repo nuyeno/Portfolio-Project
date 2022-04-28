@@ -36,6 +36,9 @@ p {
   border-radius: 5px;
   margin: 10px;
 }
+.link-button:hover {
+  color: #ca977e;
+}
 footer {
   text-align: center;
   font-family: var(--secondary-font);
