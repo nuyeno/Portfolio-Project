@@ -21,3 +21,13 @@ h2 {
   background-color: var(--primary-color);
   padding: 150px 50px;
 }
+h3 {
+  font-family: var(--title-font);
+}
+p {
+  font-family: var(--secondary-font);
+}
+footer {
+  text-align: center;
+  font-family: var(--secondary-font);
+}
