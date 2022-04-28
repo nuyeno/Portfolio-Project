@@ -1,0 +1,23 @@
+:root {
+  --title-font: "Playfair Display", serif;
+  --secondary-font: "Poppins", sans-serif;
+  --primary-color: #cad8da;
+}
+h1,
+h2 {
+  text-align: center;
+}
+h1 {
+  font-family: var(--title-font);
+  font-size: 96px;
+}
+h2 {
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  line-height: 36px;
+  padding: 30px;
+}
+.heading-hero {
+  background-color: var(--primary-color);
+  padding: 150px 50px;
+}
