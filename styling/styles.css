@@ -20,7 +20,7 @@ h2 {
 }
 .heading-hero {
   background-color: var(--primary-color);
-  padding: 150px 50px;
+  padding: 100px 50px;
 }
 h3 {
   font-family: var(--title-font);
