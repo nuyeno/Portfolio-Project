@@ -59,11 +59,17 @@ footer {
     line-height: 18px;
     padding: 15px;
   }
+  h3 {
+    font-size: 20px;
+  }
   .heading-hero {
     padding: 50px;
   }
   .introduction,
   .self-image {
     text-align: center;
+  }
+  .welcome-paragraph {
+    font-size: 14px;
   }
 }
