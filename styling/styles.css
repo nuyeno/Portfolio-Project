@@ -24,6 +24,7 @@ h2 {
 }
 h3 {
   font-family: var(--title-font);
+  margin-top: 100px;
 }
 p {
   font-family: var(--secondary-font);
@@ -72,6 +73,9 @@ footer {
   .introduction,
   .self-image {
     text-align: center;
+  }
+  .introduction {
+    margin: 100px 10px;
   }
   .welcome-paragraph {
     font-size: 14px;
