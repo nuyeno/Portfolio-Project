@@ -66,6 +66,7 @@ footer {
   }
   h3 {
     font-size: 20px;
+    margin-top: 20px;
   }
   .heading-hero {
     padding: 50px;
@@ -73,9 +74,6 @@ footer {
   .introduction,
   .self-image {
     text-align: center;
-  }
-  .introduction {
-    margin: 100px 10px;
   }
   .welcome-paragraph {
     font-size: 14px;
