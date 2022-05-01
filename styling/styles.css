@@ -62,4 +62,8 @@ footer {
   .heading-hero {
     padding: 50px;
   }
+  .introduction,
+  .self-image {
+    text-align: center;
+  }
 }
