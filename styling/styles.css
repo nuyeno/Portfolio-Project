@@ -50,3 +50,16 @@ footer {
   text-align: center;
   font-family: var(--secondary-font);
 }
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+  }
+  .heading-hero {
+    padding: 50px;
+  }
+}
