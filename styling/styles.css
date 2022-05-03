@@ -51,6 +51,12 @@ p {
   color: #454f51;
   padding: 10px;
 }
+.about-me {
+  margin-top: 80px;
+}
+.about-image {
+  margin: 50px;
+}
 footer {
   text-align: center;
   font-family: var(--secondary-font);
@@ -77,5 +83,11 @@ footer {
   }
   .welcome-paragraph {
     font-size: 14px;
+  }
+  .about-me {
+    margin-top: 15px;
+  }
+  .about-image {
+    margin-top: 5px;
   }
 }
