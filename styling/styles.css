@@ -41,12 +41,6 @@ p {
 .link-button:hover {
   color: #ca977e;
 }
-.project-text {
-  margin-top: 100px;
-  background: var(--primary-color);
-  border-radius: 5px;
-  padding: 20px;
-}
 .homepage-emoji {
   color: #454f51;
   padding: 10px;
@@ -56,6 +50,15 @@ p {
 }
 .about-image {
   margin: 50px;
+}
+
+.project-text,
+.project-image {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--primary-color);
 }
 .contact-info {
   text-align: center;
