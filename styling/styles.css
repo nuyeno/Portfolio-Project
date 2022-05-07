@@ -37,6 +37,7 @@ p {
   border-radius: 5px;
   margin: 10px;
   line-height: 50px;
+  transition: all 100ms ease-in-out;
 }
 .link-button:hover {
   color: #ca977e;
@@ -74,6 +75,17 @@ p {
 footer {
   text-align: center;
   font-family: var(--secondary-font);
+}
+footer .footer-links a {
+  margin: 5px 20px;
+  color: #454f51;
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .footer-links a:hover {
+  color: #ca977e;
 }
 @media (max-width: 900px) {
   h1 {
