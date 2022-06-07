@@ -4,6 +4,7 @@
   --primary-color: #cad8da;
   --secondary-color: #383c3d;
 }
+
 h1,
 h2 {
   text-align: center;
@@ -19,14 +20,14 @@ h2 {
   padding: 30px;
 }
 .heading-hero {
-  background-color: var(--primary-color);
+  background: url(../images/peonies.png) no-repeat 50% 30%;
   padding: 100px 50px;
 }
 h3 {
   font-family: var(--title-font);
   margin-top: 100px;
 }
-p {
+p, ul {
   font-family: var(--secondary-font);
 }
 .link-button {
