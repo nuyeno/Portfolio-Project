@@ -2,6 +2,7 @@
   --title-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
   --primary-color: #a2a8d3;
+  --secondary-color: #454f51;
 }
 
 h1,
@@ -63,10 +64,10 @@ ul {
   background: var(--primary-color);
 }
 .project-link {
-  color: #7c7c7c;
+  color: var(--secondary-color);
 }
 .project-link:hover {
-  color: #4d4c48;
+  color: #9198c4;
 }
 .contact-info {
   text-align: center;
@@ -74,7 +75,7 @@ ul {
 }
 .contact-info a {
   text-decoration: none;
-  color: #454f51;
+  color: var(--secondary-color);
 }
 .contact-info a:hover {
   color: var(--primary-color);
@@ -87,7 +88,7 @@ footer {
 }
 footer .footer-links a {
   margin: 10px 20px;
-  color: #454f51;
+  color: var(--secondary-color);
   background-color: var(--primary-color);
   padding: 10px 15px;
   border-radius: 50%;
