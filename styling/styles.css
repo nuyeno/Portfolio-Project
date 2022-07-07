@@ -1,8 +1,7 @@
 :root {
   --title-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
-  --primary-color: #cad8da;
-  --secondary-color: #383c3d;
+  --primary-color: #a2a8d3;
 }
 
 h1,
@@ -17,35 +16,37 @@ h2 {
   font-family: var(--secondary-font);
   font-size: 24px;
   line-height: 36px;
-  padding: 30px;
+  padding: 30px 10px;
 }
 .heading-hero {
-  background: url(../images/peonies.png) no-repeat 50% 30%;
+  background: url(../images/geometric.png) no-repeat 50% 30%;
   padding: 100px 50px;
 }
 h3 {
   font-family: var(--title-font);
   margin-top: 100px;
 }
-p, ul {
+.homepage {
+  background: url(../images/geometric.png) no-repeat 20% 30%;
+  padding: 150px 20px 20px 20px;
+}
+p,
+ul {
   font-family: var(--secondary-font);
 }
 .link-button {
   color: var(--secondary-color);
+  margin-right: 10px;
   text-decoration: none;
-  background: var(--primary-color);
-  padding: 10px 20px;
-  border-radius: 5px;
-  margin: 10px;
-  line-height: 50px;
   transition: all 100ms ease-in-out;
 }
 .link-button:hover {
-  color: #ca977e;
+  color: #a2a8d3;
 }
-.homepage-emoji {
-  color: #454f51;
-  padding: 10px;
+.page-links {
+  text-align: center;
+  margin: 0 auto;
+  font-family: var(--secondary-font);
 }
 .about-me {
   margin-top: 80px;
@@ -53,7 +54,6 @@ p, ul {
 .about-image {
   margin: 50px;
 }
-
 .project-text,
 .project-image {
   margin-top: 100px;
@@ -61,6 +61,12 @@ p, ul {
   padding: 5px;
   border-radius: 5px;
   background: var(--primary-color);
+}
+.project-link {
+  color: #7c7c7c;
+}
+.project-link:hover {
+  color: #4d4c48;
 }
 .contact-info {
   text-align: center;
@@ -76,9 +82,11 @@ p, ul {
 footer {
   text-align: center;
   font-family: var(--secondary-font);
+  font-size: 12px;
+  margin: 100px 20px 5px;
 }
 footer .footer-links a {
-  margin: 5px 20px;
+  margin: 10px 20px;
   color: #454f51;
   background-color: var(--primary-color);
   padding: 10px 15px;
@@ -86,7 +94,7 @@ footer .footer-links a {
   transition: all 100ms ease-in-out;
 }
 footer .footer-links a:hover {
-  color: #ca977e;
+  color: #9198c4;
 }
 @media (max-width: 900px) {
   h1 {
